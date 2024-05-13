@@ -1,0 +1,58 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>de311c53-6a02-4220-8b3e-94e83975186d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Poker.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Poker</Name>
+    <RootNamespace>Poker</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CAnalysFrame.py" />
+    <Compile Include="CAnalysHandler.py" />
+    <Compile Include="CBorderPoint2.py" />
+    <Compile Include="CCamera.py" />
+    <Compile Include="CCHandler.py" />
+    <Compile Include="CDHandler.py" />
+    <Compile Include="CErrorCode.py" />
+    <Compile Include="CHSlider.py" />
+    <Compile Include="CParameters.py" />
+    <Compile Include="CProcessImage.py" />
+    <Compile Include="CThread.py" />
+    <Compile Include="CVideoServer.py" />
+    <Compile Include="CVLA.py" />
+    <Compile Include="CZHandler.py" />
+    <Compile Include="CZoom.py" />
+    <Compile Include="Graph10.py" />
+    <Compile Include="Graph5.py" />
+    <Compile Include="MakeBmp.py" />
+    <Compile Include="Poker.py" />
+    <Compile Include="ReadCamera.py" />
+    <Compile Include="utility1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ForTesting.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

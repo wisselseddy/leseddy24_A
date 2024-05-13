@@ -1,0 +1,37 @@
+videoserver on
+videoserver off
+analyswindow on
+analyswindow3 on
+analyswindow off
+mhlc on
+mhlc off
+mvlc on
+mvlc off
+<Left mouse click on display window> resets mhlc/mvlc>
+
+list frames
+Delete frames
+loadframe 100
+unloadframe
+ContinueFrame on
+continueFrame off
+SAVESINGLEIMAGE on
+SAVESINGLEIMAGE off
+SAVEPREDEFINEDIMAGE
+RESTOREPREDEFINEDIMAGE
+
+rgbFilter1 on
+rgbFilter1 off
+rgbfilter2 on
+rgbfilter2 off
+
+selectedwindow = x
+framegrabbing on
+framegrabbing off
+displaypicture off
+savesingleimage on
+saveSingleImage off
+Recording on
+Recording off
+
+
